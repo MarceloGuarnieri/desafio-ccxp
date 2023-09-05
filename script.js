@@ -34,3 +34,8 @@ function formatoTempo(tempo){
 
 countdown();
 // setInterval(countdown, 1000) substituído por setTimeout(countdown, 1000); dentro da própria funcão countdown
+
+function highlightCard(selector){
+    var element = document.querySelector(selector);
+    element.classList.toggle("card-highlight");
+}
