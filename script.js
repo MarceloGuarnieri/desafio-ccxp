@@ -51,7 +51,7 @@ function checkKeyboardCode(){
     }, false);
 }
 
-checkKeyboardCode();
+// checkKeyboardCode();
 
 function addKeyboardEventListeners(){
     document.addEventListener('keydown', (event) => {
@@ -91,4 +91,4 @@ function addKeyboardEventListeners(){
     }, false);
 }
 
-// addKeyboardEventListeners();
+addKeyboardEventListeners();
