@@ -82,7 +82,7 @@ function addKeyboardEventListeners(){
             ingresso4.classList.remove("card-highlight");
         }
 
-        if(code == 'Digit1') {
+        if(code == 'Digit4') {
             ingresso1.classList.remove("card-highlight");
             ingresso2.classList.remove("card-highlight");
             ingresso3.classList.remove("card-highlight");
