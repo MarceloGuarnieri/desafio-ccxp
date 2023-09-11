@@ -57,13 +57,13 @@
         <div class="imagens">
             <h3>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h3>
             
-            <img id="img1" class="cards-ingressos" src="img/img1.svg" onmouseover="highlightCard('#img1')" onmouseout="highlightCard('#img1')" alt="">
-            <img id="img2" class="cards-ingressos" src="img/img2.svg" onmouseover="highlightCard('#img2')" onmouseout="highlightCard('#img2')" alt="">
-            <img id="img3" class="cards-ingressos" src="img/img3.svg" onmouseover="highlightCard('#img3')" onmouseout="highlightCard('#img3')" alt="">
-            <img id="img4" class="cards-ingressos" src="img/img4.svg" onmouseover="highlightCard('#img4')" onmouseout="highlightCard('#img4')" alt="">
+            <img id="img1" class="cards-ingressos" src="img/img1.svg" onclick="selectCard('#img1')" onmouseover="highlightCard('#img1')" onmouseout="highlightCard('#img1')" alt="">
+            <img id="img2" class="cards-ingressos" src="img/img2.svg" onclick="selectCard('#img2')" onmouseover="highlightCard('#img2')" onmouseout="highlightCard('#img2')" alt="">
+            <img id="img3" class="cards-ingressos" src="img/img3.svg" onclick="selectCard('#img3')" onmouseover="highlightCard('#img3')" onmouseout="highlightCard('#img3')" alt="">
+            <img id="img4" class="cards-ingressos" src="img/img4.svg" onclick="selectCard('#img4')" onmouseover="highlightCard('#img4')" onmouseout="highlightCard('#img4')" alt="">
         </div>
         <div id="secaoBotao">
-            <button>GARANTA O SEU!</button>
+            <button onclick="showSelectedCards()">GARANTA O SEU!</button>
         </div>
     </div>
     <script src="script.js"></script>

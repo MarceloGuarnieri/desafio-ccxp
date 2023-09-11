@@ -1,3 +1,5 @@
+const ingressos = [];
+
 const dia = document.getElementById('dia')
 const hora = document.getElementById('hora')
 const minuto = document.getElementById('minuto')
@@ -89,6 +91,19 @@ function addKeyboardEventListeners(){
             ingresso4.classList.toggle("card-highlight");
         }
     }, false);
+}
+
+
+//Semana 4, Resolvendo Problema Prático com Arrays
+functionselectCard(selector){
+    var element = document.querySelector(selector);
+    element.classList.toggle("card-selected");
+    if(ingressos.includes(selector)) ingressos.pop(selector);
+    else ingressos.push(selector)
+}
+
+function showSelectedCards(){
+    if(ingressos.length > 0) alert("Ingressos Selecionados: " + ingressos);
 }
 
 addKeyboardEventListeners();
