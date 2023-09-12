@@ -180,4 +180,7 @@ input{
 #formulario{
     background: var(--cor-primaria);
     width: 100%;
+    height: 100px;
+    align-items: center;
+    margin-top: 20px;
 }
