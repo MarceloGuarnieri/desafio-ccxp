@@ -176,3 +176,8 @@ input{
     height: 70px;
     font-size: 30px;
 }
+
+#formulario{
+    background: var(--cor-primaria);
+    width: 100%;
+}
