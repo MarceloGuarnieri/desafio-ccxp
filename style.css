@@ -166,3 +166,13 @@ section{
 .card-selected{
     border: 5px solid green;
 }
+
+input{
+    background: #514988;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+}
