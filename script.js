@@ -95,7 +95,7 @@ function addKeyboardEventListeners(){
 
 
 //Semana 4, Resolvendo Problema Prático com Arrays
-functionselectCard(selector){
+function selectCard(selector){
     var element = document.querySelector(selector);
     element.classList.toggle("card-selected");
     if(ingressos.includes(selector)) ingressos.pop(selector);
@@ -105,5 +105,9 @@ functionselectCard(selector){
 function showSelectedCards(){
     if(ingressos.length > 0) alert("Ingressos Selecionados: " + ingressos);
 }
+
+//o debaixo é a arrow function e faz o mesmo que a de cima
+// showSelectedCards = () => {if(ingressos.length > 0) alert("Ingressos Selecionados: " + ingressos);}
+
 
 addKeyboardEventListeners();
